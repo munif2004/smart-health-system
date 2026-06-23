@@ -1,0 +1,8 @@
+Slide size: 1280x720
+Background: deep ink #07111f with white/light panels where dense reading is needed
+Typography: Aptos Display for titles, Aptos for labels/body
+Palette: ink #07111f, panel #0f1d33, cyan #17bebb, green #20c997, amber #f5a623, red #ef4444, off-white #f8fafc
+Diagram grammar: rounded-light containers only for real system groups; lines/arrows indicate dependency or sequence
+Source/footer: short MCA Project footer and page marker
+Layout families: cover, pillar grid, process rail, architecture map, stack bands, module map, ER diagram, screenshot board, testing matrix/roadmap
+Banned motifs: fabricated logos, stock medical icons, decorative gradients, vague AI boxes

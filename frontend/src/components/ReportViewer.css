@@ -1,0 +1,140 @@
+.report-viewer {
+  max-width: 900px;
+  margin: 20px auto;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.viewer-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.viewer-header h2 {
+  margin: 0 0 10px 0;
+  font-size: 2em;
+}
+
+.viewer-header p {
+  margin: 0;
+  opacity: 0.9;
+}
+
+.reports-list {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.report-card {
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.report-card:hover {
+  border-color: #667eea;
+  box-shadow: 0 5px 20px rgba(102, 126, 234, 0.2);
+  transform: translateY(-5px);
+}
+
+.report-info h3 {
+  margin: 0 0 15px 0;
+  color: #333;
+  font-size: 1.3em;
+}
+
+.report-meta {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.severity {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.severity.low {
+  background: #c8e6c9;
+  color: #2e7d32;
+}
+
+.severity.medium {
+  background: #ffe0b2;
+  color: #e65100;
+}
+
+.severity.critical {
+  background: #ffcdd2;
+  color: #c62828;
+}
+
+.date {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.status {
+  color: #667eea;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.download-btn {
+  padding: 12px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1em;
+  transition: all 0.3s;
+  margin-top: 15px;
+}
+
+.download-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.empty-state {
+  padding: 60px 20px;
+  text-align: center;
+  color: #999;
+}
+
+.empty-state p {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+.loading {
+  padding: 60px 20px;
+  text-align: center;
+  color: #667eea;
+  font-size: 1.1em;
+}
+
+@media (max-width: 768px) {
+  .reports-list {
+    grid-template-columns: 1fr;
+  }
+
+  .viewer-header h2 {
+    font-size: 1.5em;
+  }
+}

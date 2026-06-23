@@ -1,0 +1,8 @@
+Task mode: create
+Primary deck-profile: engineering-platform
+Secondary gates: product-platform clarity for module/workflow slides
+Required proof objects: architecture map, stack dependency map, module map, database ER-style design, testing coverage view
+Source/asset requirements: local project context only; no unverified logos or screenshots embedded
+Brand authenticity constraints: no fabricated institutional logos; visual identity is color/type/system only
+Profile-specific QA gates: technical labels must be specific; diagrams must show correct flow; no vague generic architecture boxes
+Known missing inputs: user name and college name not provided; deck uses editable placeholders "Your Name" and "College Name"

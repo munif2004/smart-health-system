@@ -1,0 +1,157 @@
+.dashboard-layout-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.dashboard-section {
+  scroll-margin-top: 24px;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+}
+
+:root[data-theme='dark'] body {
+  background: #101420;
+  color: #edf2ff;
+}
+
+:root[data-theme='dark'] .App,
+:root[data-theme='dark'] .doctor-shell,
+:root[data-theme='dark'] .patient-shell {
+  background: #101420;
+  color: #edf2ff;
+}
+
+:root[data-theme='dark'] .doctor-main,
+:root[data-theme='dark'] .patient-main {
+  background: #101420;
+}
+
+:root[data-theme='dark'] .doctor-sidebar,
+:root[data-theme='dark'] .patient-sidebar {
+  background: rgba(20, 26, 39, 0.96);
+  border-color: #293246;
+}
+
+:root[data-theme='dark'] .doctor-panel,
+:root[data-theme='dark'] .patient-panel,
+:root[data-theme='dark'] .metric-card,
+:root[data-theme='dark'] .appointment-card,
+:root[data-theme='dark'] .quick-action,
+:root[data-theme='dark'] .health-tile,
+:root[data-theme='dark'] .report-modal,
+:root[data-theme='dark'] .patient-search-results,
+:root[data-theme='dark'] .global-patient-search label {
+  background: #171d2b;
+  color: #edf2ff;
+  border-color: #293246;
+}
+
+:root[data-theme='dark'] .doctor-brand strong,
+:root[data-theme='dark'] .doctor-profile strong,
+:root[data-theme='dark'] .appointment-patient strong,
+:root[data-theme='dark'] .patient-row strong,
+:root[data-theme='dark'] .patient-brand strong,
+:root[data-theme='dark'] .patient-profile strong,
+:root[data-theme='dark'] .appointment-doctor strong,
+:root[data-theme='dark'] .patient-appointment-row strong,
+:root[data-theme='dark'] .data-row strong,
+:root[data-theme='dark'] .history-item strong,
+:root[data-theme='dark'] .quick-action strong,
+:root[data-theme='dark'] .panel-header h2,
+:root[data-theme='dark'] .metric-card strong,
+:root[data-theme='dark'] .appointment-time strong,
+:root[data-theme='dark'] .doctor-history-row strong,
+:root[data-theme='dark'] .ai-chat-header strong {
+  color: #edf2ff;
+}
+
+:root[data-theme='dark'] .doctor-brand span,
+:root[data-theme='dark'] .doctor-profile span,
+:root[data-theme='dark'] .appointment-patient span,
+:root[data-theme='dark'] .appointment-time span,
+:root[data-theme='dark'] .patient-row span,
+:root[data-theme='dark'] .patient-brand span,
+:root[data-theme='dark'] .patient-profile span,
+:root[data-theme='dark'] .appointment-doctor span,
+:root[data-theme='dark'] .patient-appointment-row span,
+:root[data-theme='dark'] .data-row small,
+:root[data-theme='dark'] .history-item small,
+:root[data-theme='dark'] .metric-card span,
+:root[data-theme='dark'] .quick-action small,
+:root[data-theme='dark'] .empty-panel,
+:root[data-theme='dark'] .doctor-history-row small,
+:root[data-theme='dark'] .doctor-history-row time,
+:root[data-theme='dark'] .ai-chat-header span {
+  color: #aab6cf;
+}
+
+:root[data-theme='dark'] .doctor-nav button,
+:root[data-theme='dark'] .patient-nav button {
+  color: #dbe5f7;
+}
+
+:root[data-theme='dark'] .panel-header,
+:root[data-theme='dark'] .appointment-row,
+:root[data-theme='dark'] .patient-row,
+:root[data-theme='dark'] .data-row,
+:root[data-theme='dark'] .patient-appointment-row,
+:root[data-theme='dark'] .notification-row,
+:root[data-theme='dark'] .doctor-history-row,
+:root[data-theme='dark'] .ai-chat-header {
+  border-color: #293246;
+}
+
+:root[data-theme='dark'] input,
+:root[data-theme='dark'] textarea,
+:root[data-theme='dark'] select {
+  background: #111827;
+  color: #edf2ff;
+  border-color: #334155;
+}
+
+:root[data-theme='dark'] input::placeholder,
+:root[data-theme='dark'] textarea::placeholder {
+  color: #8190aa;
+}
+
+:root[data-theme='dark'] .ai-chat-bubble {
+  background: #243047;
+  color: #edf2ff;
+}
+
+:root[data-theme='dark'] .ai-chat-message.user .ai-chat-bubble {
+  background: #5b6ff5;
+  color: #fff;
+}
+
+:root[data-theme='dark'] .ai-chat-quick button,
+:root[data-theme='dark'] .panel-header button,
+:root[data-theme='dark'] .row-actions button,
+:root[data-theme='dark'] .patient-row button,
+:root[data-theme='dark'] .modal-actions button,
+:root[data-theme='dark'] .medicine-header button,
+:root[data-theme='dark'] .empty-panel button,
+:root[data-theme='dark'] .appointment-card button,
+:root[data-theme='dark'] .patient-appointment-row button,
+:root[data-theme='dark'] .data-row button,
+:root[data-theme='dark'] .patient-search-results button {
+  background: #111827;
+  border-color: #334155;
+  color: #dbe5f7;
+}
+
+:root[data-theme='dark'] .patient-search-results button:hover {
+  background: #202a3e;
+}
+
+:root[data-theme='dark'] .patient-search-results mark {
+  background: #7c5b18;
+  color: #fff4ce;
+}
+
+:root[data-theme='dark'] .sidebar-overlay {
+  background: rgba(2, 6, 23, 0.62);
+}

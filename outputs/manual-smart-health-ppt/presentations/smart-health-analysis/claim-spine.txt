@@ -1,0 +1,22 @@
+Thesis: Smart Health Analysis System combines patient workflows, doctor operations, AI symptom analysis, realtime chat/video, and secure payments into one web platform.
+Audience: MCA project review panel.
+Arc: identify fragmented healthcare consultation problems, present an integrated MERN/WebRTC architecture, show modules/database/testing, then conclude with future enhancements.
+Slides:
+1 Title - project identity - title composition
+2 Objective - project aims - objective pillars
+3 Abstract - system summary - platform narrative
+4 Existing System - fragmented manual flow - workflow comparison
+5 Disadvantages - current pain points - risk matrix
+6 Proposed System - integrated platform - capability map
+7 Advantages - measurable improvements - benefit grid
+8 System Architecture - end-to-end flow - layered architecture diagram
+9 Technology Stack - stack supports realtime healthcare - dependency bands
+10 Core Modules - five modules compose the product - module map
+11 Patient Module - patient journey is self-service - workflow rail
+12 Doctor Module - doctor workspace manages consultations - workflow rail
+13 AI Symptom Analysis - triage converts symptoms to guidance - process diagram
+14 Video Consultation - WebRTC handles realtime care - signaling/media diagram
+15 Appointment Booking - booking connects patient, doctor, payment - sequence flow
+16 Database Design - MongoDB collections map to workflows - ER-style diagram
+17 Screenshots - key screens to paste from app - screenshot placeholders
+18 Testing, Conclusion, Future Enhancement & References - validation and next steps - testing matrix plus roadmap

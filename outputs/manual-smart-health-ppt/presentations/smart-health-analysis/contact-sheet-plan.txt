@@ -1,0 +1,1 @@
+Contact sheet plan: 18 slides, 8 macro-layout families. No three consecutive slides reuse same layout. Technical slides emphasize diagrams over prose.

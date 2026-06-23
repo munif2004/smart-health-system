@@ -1,0 +1,1 @@
+Source notes: Content comes from user-provided project outline and visible local project components/API names. No external sources used. References slide cites MERN, Socket.io, WebRTC, JWT, Razorpay, and MongoDB documentation as editable text references without embedded logos.
