@@ -16,7 +16,7 @@ const server = http.createServer(app);
 
 
 
-const allowedOrigins = [
+const allowedOrigin = [
   process.env.CLIENT_URL,
   process.env.SOCKET_CORS,
   'http://localhost:3000'
