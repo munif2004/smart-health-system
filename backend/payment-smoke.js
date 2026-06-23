@@ -2,7 +2,7 @@ require('dotenv').config();
 
 const axios = require('axios');
 
-const API = process.env.E2E_API_URL || 'http://localhost:5000/api';
+const API = process.env.E2E_API_URL || 'https://smart-health-system-io2m.onrender.com';
 const password = process.env.E2E_PASSWORD || 'E2ePass123!';
 const patientEmail = process.env.E2E_PATIENT_EMAIL;
 const doctorEmail = process.env.E2E_DOCTOR_EMAIL;

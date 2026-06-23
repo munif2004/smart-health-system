@@ -9,8 +9,8 @@ const Report = require('./models/Report');
 const Prescription = require('./models/Prescription');
 const MedicalHistory = require('./models/MedicalHistory');
 
-const API = process.env.E2E_API_URL || 'http://localhost:5000/api';
-const SOCKET_URL = process.env.E2E_SOCKET_URL || 'http://localhost:5000';
+const API = process.env.E2E_API_URL || 'https://smart-health-system-io2m.onrender.com';
+const SOCKET_URL = process.env.E2E_SOCKET_URL || 'https://smart-health-system-io2m.onrender.com';
 const stamp = Date.now();
 const password = 'E2ePass123!';
 
