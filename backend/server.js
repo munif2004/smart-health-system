@@ -22,10 +22,9 @@ const allowedOrigin = [
   'http://localhost:3000'
 ];
 
-app.use(cors({
-  origin: allowedOrigin,
-  credentials: true
-}));
+
+
+
 
 const io = socketIO(server, {
   cors: {
@@ -89,7 +88,9 @@ app.use('/api/doctor', require('./routes/doctor'));
 app.use('/api/search', require('./routes/search'));
 app.use('/api/payments', require('./routes/payments'));
 app.use('/api/consultations', require('./routes/consultations'));
-
+app.get('/', (req, res) => {
+  res.send('Hospital AI Backend Running');
+});
 app.get('/api/health', (req, res) => {
   res.json({ status: 'Server is running', timestamp: new Date() });
 });
