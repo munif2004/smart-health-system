@@ -69,12 +69,11 @@ const createRateLimiter = ({ windowMs = 15 * 60 * 1000, max = 600 } = {}) => {
   };
 };
 
-
-
 app.use(cors({
   origin: true,
   credentials: true
-})); 
+}));  
+
 app.use(securityHeaders);
 app.use(createRateLimiter());
 app.use(express.json({ limit: '2mb' }));

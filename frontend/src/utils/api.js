@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_BASE_URL =
-  process.env.REACT_APP_API_URL || 'https://smart-health-system-i02m.onrender.com/api';
+  process.env.REACT_APP_API_URL || 'https://smart-health-system-io2m.onrender.com/api';
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL
