@@ -17,12 +17,17 @@ const server = http.createServer(app);
 
 
 const allowedOrigin = [
+  "https://aismart-health-system.netlify.app/",
   process.env.CLIENT_URL,
   process.env.SOCKET_CORS,
-  'http://localhost:3000'
+  "http://localhost:3000"
 ];
 
 
+
+console.log("CLIENT_URL:", process.env.CLIENT_URL);
+console.log("SOCKET_CORS:", process.env.SOCKET_CORS);
+console.log("allowedOrigin:", allowedOrigin);
 
 
 
@@ -88,6 +93,7 @@ app.use('/api/doctor', require('./routes/doctor'));
 app.use('/api/search', require('./routes/search'));
 app.use('/api/payments', require('./routes/payments'));
 app.use('/api/consultations', require('./routes/consultations'));
+
 app.get('/', (req, res) => {
   res.send('Hospital AI Backend Running');
 });
