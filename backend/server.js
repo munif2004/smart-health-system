@@ -23,13 +23,13 @@ const allowedOrigins = [
 ];
 
 app.use(cors({
-  origin: allowedOrigins,
+  origin: allowedOrigin,
   credentials: true
 }));
 
 const io = socketIO(server, {
   cors: {
-    origin: allowedOrigins,
+    origin: allowedOrigin,
     methods: ['GET', 'POST', 'PUT', 'DELETE']
   }
 });
