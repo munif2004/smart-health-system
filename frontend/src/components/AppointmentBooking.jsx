@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from "react";
 import { ToastContainer, toast } from 'react-toastify';
 import './AppointmentBooking.css';
 import { appointmentAPI, userAPI, aiAPI } from '../utils/api';
@@ -11,20 +11,20 @@ const AppointmentBooking = ({ userId, onBookingComplete }) => {
   const [selectedDate, setSelectedDate] = useState('');
   const [selectedTime, setSelectedTime] = useState('');
   const [loading, setLoading] = useState(false);
-  const [specialization, setSpecialization] = useState('');
+ // const [specialization, setSpecialization] = useState('');
   const [prediction, setPrediction] = useState(null);
   const [useAutoBook, setUseAutoBook] = useState(false);
 
-  const specializations = [
-    'Cardiology',
-    'Neurology',
-    'Dermatology',
-    'Orthopedics',
-    'General',
-    'Emergency',
-    'Pediatrics',
-    'Psychiatry'
-  ];
+  //const specializations = [
+    //'Cardiology',
+    //'Neurology',
+    //'Dermatology',
+    //'Orthopedics',
+    //'General',
+    //'Emergency',
+   // 'Pediatrics',
+    //'Psychiatry'
+//  ];
 
   const availableTimes = [
     '09:00 AM',

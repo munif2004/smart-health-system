@@ -44,13 +44,13 @@ const RegisterPage = ({ onRegisterSuccess, onSwitchToLogin }) => {
 
     setLoading(true);
     try {
-      const response = await authAPI.register({
-        name,
-        email,
-        password,
-        role,
-        specialization: role === 'doctor' ? specialization : undefined
-      });
+     await authAPI.register({
+  name,
+  email,
+  password,
+  role,
+  specialization: role === 'doctor' ? specialization : undefined
+});
 
       toast.success('✓ Account created successfully! Please login.');
       
