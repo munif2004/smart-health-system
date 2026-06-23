@@ -13,11 +13,23 @@ require('dotenv').config();
 const app = express();
 const server = http.createServer(app);
 
-const allowedOrigin = process.env.CLIENT_URL || process.env.SOCKET_CORS || 'http://localhost:3000';
+
+
+
+const allowedOrigins = [
+  process.env.CLIENT_URL,
+  process.env.SOCKET_CORS,
+  'http://localhost:3000'
+];
+
+app.use(cors({
+  origin: allowedOrigins,
+  credentials: true
+}));
 
 const io = socketIO(server, {
   cors: {
-    origin: allowedOrigin,
+    origin: allowedOrigins,
     methods: ['GET', 'POST', 'PUT', 'DELETE']
   }
 });
